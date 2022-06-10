@@ -96,7 +96,7 @@ body {
 	#Pic1 {
 		position: relative;
 		width: 100%;
-		right: 0;
+		margin-left: 10%;
 		overflow: visible;
 		vertical-align: top;
 	}
