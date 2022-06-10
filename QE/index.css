@@ -66,6 +66,7 @@ body {
 			right: 0;
 			overflow: visible;
 			vertical-align: top;
+			text-align: right;
 		}
 		#SAILAWAY {
 			position: absolute;
