@@ -53,7 +53,7 @@
 		.Pic1{
 			width: 91.428571%;
 			overflow: visible;
-			margin-left: 10%;
+			margin-right: 0;
 			margin-top: 30px;
 			z-index: 0;
 		}
@@ -135,7 +135,7 @@
 			position: relative;
 			width: 91.428571%;
 			overflow: visible;
-			margin-left: 10%;
+			margin-right: 0;
 			margin-top: 60px;
 		}
 		#Sizes_t {
