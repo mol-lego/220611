@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/index.html
+RewriteRule ^(.*)index.html$ https://mamorutanabe.com/$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.mamorutanabe.com
+RewriteRule ^(.*) https://mamorutanabe.com/$1 [R=301,L]
