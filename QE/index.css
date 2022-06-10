@@ -340,6 +340,20 @@ body {
 			margin-left: 10%;
 			margin-top: 104px;
 		}
+		#ID2022 {
+			position: relative;
+			overflow: visible;
+			width: 57px;
+			white-space: nowrap;
+			text-align: left;
+			font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			color: rgba(51,51,51,1);
+			margin-left: 10%;
+			margin-top: 104px;
+		}
 		#Twitter {
 			position: relative;
 			overflow: visible;
