@@ -140,6 +140,7 @@ body {
 		overflow: visible;
 		margin-left: 10%;
 		margin-top: 60px;
+		text-align: right;
 	}
 	#Sizes_t {
 		position: relative;
