@@ -111,7 +111,8 @@ body {
 		width: 70%;
 		margin-top: 30px;
 		margin-left: 10%;
-		box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+		box-shadow: rgb(50, 50, 93) 5px 6px 12px 0px;
+		border-radius: 10px 10px 10px 10px;
 	}
 	.link {
 		position: absolute;
@@ -126,6 +127,7 @@ body {
 		width: 100%;
 		margin-bottom: 0;
 		vertical-align: top;
+		border-radius: 10px 10px 10px 10px;
 	}
 	.Rect{
 		position: absolute;
@@ -134,6 +136,7 @@ body {
 	}
 	#ToMSQE_U {
 		fill: rgba(51,51,51,1);
+		
 	}
 	.ToMSQE_U {
 		position: absolute;
@@ -141,6 +144,7 @@ body {
 		margin-left: 0;
 		width: 100%;
 		height: 30px;
+		border-radius: 10px 0px 10px 0px;
 	}
 	#ToMSQE {
 		position: absolute;
@@ -154,6 +158,7 @@ body {
 		font-weight: bold;
 		font-size: 16px;
 		color: rgba(204,255,255,1);
+		border-radius: 10px 10px 10px 10px;
 	}
 	.ToYasakaw{
 		position: relative;
@@ -162,12 +167,14 @@ body {
 		margin-left: 20%;
 		margin-top: 30px;
 		box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+		border-radius: 10px 10px 10px 10px;
 	}
 	#ToYasaka_pic {
 		position: relative;
 		width: 100%;
 		overflow: visible;
 		vertical-align: top;
+		border-radius: 10px 10px 10px 10px;
 	}
 	#ToYasaka_U {
 		fill: rgba(51,51,51,1);
@@ -177,6 +184,7 @@ body {
 		overflow: visible;
 		width: 100%;
 		height: 30px;
+		border-radius: 10px 0px 10px 0px;
 	}
 	#ToYasaka {
 		position: absolute;
@@ -192,7 +200,7 @@ body {
 		font-size: 16px;
 		color: rgba(255,204,204,1);
 	}
-	#KnockDive {
+	#title {
 		position: absolute;
 		overflow: visible;
 		width: 318px;
@@ -208,13 +216,13 @@ body {
 		left: -12px;
 		z-index: 3;
 	}
-	#June2021 {
+	#title_sub {
 		right: 10%;
 		position: absolute;
 		overflow: visible;
 		width: 153px;
 		white-space: nowrap;
-		text-align: right;
+		text-align: left;
 		font-family: source-sans-pro, sans-serif;
 		font-weight: 600;
 		font-style: normal;
@@ -224,7 +232,7 @@ body {
 		z-index: 3;
 	}
 	#footer_b {
-		fill: rgba(235,235,235,1);
+		fill: rgb(220, 220, 220);
 	}
 	.footer_b {
 		position: absolute;
@@ -364,7 +372,12 @@ body {
 		width: 70%;
 		margin-top: 40px;
 		margin-left: 10%;
-		box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+		box-shadow: rgba(50, 50, 93, 0.5) 2px 2px 10px 0px;
+		border-radius: 10px 10px 10px 10px;
+		transition: box-shadow 0.2s ease;
+	}
+	.ToMSQEw:hover {
+		box-shadow: rgba(50, 50, 93, 0.8) 2px 2px 12px 0px;
 	}
 	.link {
 		position: absolute;
@@ -415,7 +428,12 @@ body {
 		height: auto;
 		margin-left: 20%;
 		margin-top: 40px;
-		box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+		box-shadow: rgba(50, 50, 93, 0.5) 2px 2px 10px 0px;
+		border-radius: 10px 10px 10px 10px;
+		transition: box-shadow 0.2s ease;
+	}
+	.ToYasakaw:hover {
+		box-shadow: rgba(50, 50, 93, 0.8) 2px 2px 12px 0px;
 	}
 	#ToYasaka_pic {
 		position: relative;
@@ -448,7 +466,7 @@ body {
 		z-index: 5;
 	}
 	#footer_b {
-		fill: rgba(235,235,235,1);
+		fill: rgb(220, 220, 220);
 	}
 	.footer_b {
 		position: absolute;
@@ -486,7 +504,7 @@ body {
 		height: 150px;
 		margin-top: 268px;
 	}
-	#KnockDive {
+	#title {
 		position: absolute;
 		overflow: visible;
 		width: 318px;
@@ -498,10 +516,10 @@ body {
 		font-size: 160px;
 		color: rgba(51,51,51,1);
 		top: -120px;
-		left: -6px;
+		left: -8px;
 		z-index: 3;
 	}
-	#June2021 {
+	#title_sub {
 		right: 10%;
 		position: absolute;
 		overflow: visible;
@@ -513,7 +531,7 @@ body {
 		font-style: normal;
 		font-size: 30px;
 		color: rgba(51,51,51,1);
-		top: 15px;
+		top: 10px;
 		z-index: 3;
 	}
 }
@@ -593,8 +611,8 @@ body {
 		position: relative;
 		width: 300px;
 		height: 300px;
-		margin-top: 28px;
-		margin-left: 5.5%;
+		margin-top: 0px;
+		margin-left: 5%;
 		overflow: visible;
 	}
 	#Works_t {
@@ -615,8 +633,14 @@ body {
 		width: 70%;
 		margin-top: 50px;
 		margin-left: 10%;
-		box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+		box-shadow: rgba(50, 50, 93, 0.5) 2px 2px 10px 0px;
+		border-radius: 10px 10px 10px 10px;
+		transition: box-shadow 0.2s ease;
 	}
+	.ToMSQEw:hover {
+		box-shadow: rgba(50, 50, 93, 0.8) 3px 3px 15px 0px;
+	}
+
 	.link {
 		position: absolute;
 		top: 0;
@@ -666,7 +690,12 @@ body {
 		height: auto;
 		margin-left: 20%;
 		margin-top: 50px;
-		box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+		box-shadow: rgba(50, 50, 93, 0.5) 2px 2px 10px 0px;
+		border-radius: 10px 10px 10px 10px;
+		transition: box-shadow 0.2s ease;
+	}
+	.ToYasakaw:hover {
+		box-shadow: rgba(50, 50, 93, 0.8) 3px 3px 15px 0px;
 	}
 	#ToYasaka_pic {
 		position: relative;
@@ -699,7 +728,7 @@ body {
 		z-index: 5;
 	}
 	#footer_b {
-		fill: rgba(235,235,235,1);
+		fill: rgb(220, 220, 220);
 	}
 	.footer_b {
 		position: absolute;
@@ -736,7 +765,7 @@ body {
 		width: 100%;
 		top: 3748px;
 	}
-	#KnockDive {
+	#title {
 		position: absolute;
 		overflow: visible;
 		width: 318px;
@@ -751,7 +780,7 @@ body {
 		left: -9px;
 		z-index: 3;
 	}
-	#June2021 {
+	#title_sub {
 		right: 10%;
 		position: absolute;
 		overflow: visible;
@@ -763,7 +792,7 @@ body {
 		font-style: normal;
 		font-size: 40px;
 		color: rgba(51,51,51,1);
-		top: 15px;
+		top: 10px;
 		z-index: 3;
 	}
 }
